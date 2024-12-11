@@ -19,3 +19,5 @@ jobs:
     - run: apt list --installed
 
     - run: apt-mark showmanual
+
+    - run: apt-mark showauto
